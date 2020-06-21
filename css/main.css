@@ -1,0 +1,79 @@
+/*
+	@规则
+	@charset设置样式表的编码
+	@import 导入其他样式文件
+	@meida 媒体查询
+	@font-face 自定义字体
+
+	*/
+
+@import 'reset.css';
+/*头部信息*/
+#headMessage {
+	width: 1200px;
+    height: 170px;
+    margin: 0 auto;
+    background-color: #014a95;
+}
+#headMessage li{
+	float: left;
+	padding: 33px 6px;
+	font-size: 20px;
+}
+#headMessage a{
+	color: white;
+	
+}
+#headMessage a:hover{
+	/*color: white;*/
+	color: blue;
+}
+#headMessage .top_left{
+	width: 398px;
+    height: 94px;
+    display: block;
+    padding-top: 38px;
+}
+#headMessage span{
+	font-size: 20px;
+}
+#headMessage .right_ul {
+	background:url(../xy_topBG.png);
+	    width: 785px;
+    height: 130px;
+    padding-top: 40px;
+}
+
+#headColumns{
+	max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+}
+#headColumns li {
+	float: left;
+}
+#headColumns span {
+	word-break:normal; 
+    width:auto; 
+    display:block; 
+    white-space:pre-wrap;
+    word-wrap : break-word ;
+    overflow: hidden ;
+    font-size: 20px;
+    padding: 25px 35px;
+}
+#headColumns .firstSpan {
+
+    font-size: 20px;
+    padding: 25px 35px 25px 150px; 
+}
+#headColumns .underSpan {
+    font-size: 15px;
+    padding: 0px 35px;
+}
+#headColumns .firstBottomSpan {
+    font-size: 15px;
+    padding: 0px 0px 35px 150px;
+}
+

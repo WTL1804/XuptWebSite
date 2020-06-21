@@ -1,0 +1,58 @@
+/*样式重置*/
+body,p,h1,h2,h3,h4{
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+img{
+	border: none;
+	vertical-align: middle;
+	/*不设置底部和文字会有缝隙*/
+}
+a{
+	/*不需要下划线*/
+	text-decoration: none;
+	color:#3c3c3c;
+}
+i {
+	/*斜体*/
+	font-style: normal;
+}
+input, button{
+	margin: 0px;
+	padding: 0px;
+}
+button{
+	outline: none;
+}
+body {
+	/*设置字体 淘宝字体设置*/
+	font:12px/1.5 tahoma,arial,'hiragino Sans GB','\5b8b\4f53',sans-serif;
+	color:black;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*.leayer{
+	width:
+}*/
+/*预定义样式*/
+
+
+
+
+
+
+
+
