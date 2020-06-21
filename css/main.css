@@ -32,22 +32,23 @@
 	width: 398px;
     height: 94px;
     display: block;
+    margin: 0 auto;
     padding-top: 38px;
 }
 #headMessage span{
 	font-size: 20px;
 }
 #headMessage .right_ul {
-	background:url(../xy_topBG.png);
-	    width: 785px;
+	background:url(../res/xy_topBG.png);
+	width: 785px;
     height: 130px;
     padding-top: 40px;
 }
-
+/*标题栏*/
 #headColumns{
-	max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+	/*max-width: 1200px;*/
+/*    margin: 0 auto;*/
+    width: 1200px;
     height: 150px;
 }
 #headColumns li {
@@ -64,16 +65,104 @@
     padding: 25px 35px;
 }
 #headColumns .firstSpan {
-
+	position: relative;
     font-size: 20px;
-    padding: 25px 35px 25px 150px; 
+    /*padding: 25px 35px 25px 150px; */
+    left:100px;
+
 }
 #headColumns .underSpan {
+	position: relative;
     font-size: 15px;
     padding: 0px 35px;
+
 }
 #headColumns .firstBottomSpan {
+	position: relative;
     font-size: 15px;
-    padding: 0px 0px 35px 150px;
+    /*padding: 0px 0px 35px 150px;*/
+    left:70px;
 }
+#headColumns .outSideHover:hover{
+	background-color: #014a95;
 
+}
+/*轮播图*/
+#fade{
+        width: 1200px;
+        height: 480px;
+        margin: 0 auto;
+        position: relative;
+}
+/*信息*/
+#news {
+	width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    /*background-color: green;*/
+}
+#news .course{
+	float:left;
+	width: 600px;
+	height: 280px;
+	padding: 15px 0px;
+}
+#news .notice {
+	float:right;
+	width: 600px;
+	height: 280px;
+	padding: 15px 0px;
+}
+#news .theTitle {
+	height: 80px;
+	width: 600px;
+	background-color: white;
+	background:url(../res/line.png) left bottom no-repeat;
+}
+#news .courseDiv {
+	padding: 25px 25px;
+	font-size: 25px;
+}
+#news .courseIcon{
+	padding: 25px 15px;
+	height: 35px;
+	width: 35px; 
+
+}
+/*课程表表格样式*/
+.table11_6 table {
+    width:100%;
+    margin:15px;
+    border:0;
+}
+.table11_6 th {
+    background-color:#96C7ED;
+    color:#000000
+}
+.table11_6,.table11_6 th,.table11_6 td {
+    font-size:0.95em;
+    text-align:center;
+    padding:15px;
+    border-collapse:collapse;
+}
+.table11_6 th,.table11_6 td {
+    border: 1px solid #73b4e7;
+    border-width:1px 0 1px 0;
+    border:2px inset #ffffff;
+}
+.table11_6 tr {
+    border: 1px solid #ffffff;
+}
+.table11_6 tr:nth-child(odd){
+    background-color:#dcecf9;
+}
+.table11_6 tr:nth-child(even){
+    background-color:#ffffff;
+}
+/*信息栏*/
+#news .noticeSpan{
+	font-size: 18px;
+}
+#news .notice>ul>li{
+	padding: 5px 5px;
+}
