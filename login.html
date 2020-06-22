@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>理想教务管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="icon" href= "res/xiaohui.ico">
+	<script src="js/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="js/login.js"></script
+</head>
+<body >
+	<div style="position:absolute; width:100%; height:100%; z-index:-1; left:0; top:0;">
+  		<img src="res/background.jpg" style="width:100%; height:100%; position:absolute; top:0; left:0;">  
+  </div>
+  <h1 class = "H1Title">欢迎使用理想教务系统</h1>
+  <form class = "form-signin"  id = "loginForm" action = "main.html" method = "post" omsubmit='return check()'>
+  <input type="text" placeholder="账 号" id = "inputAccount" ><br>
+  <input type="password" placeholder="密 码" id = "inputPassword" > 
+  <table width="100%">
+  <tr>
+    <td align ="left"><a href = "registerCustomer.html">注册</a></td>
+    <td align="center">
+    <span id="info">账号必须填写</span></td>
+  </tr></table>
+   <button type = "submit">登录</button>
+  </form>
+
+  <footer class="footer">CopyRight@西邮软件工程1804王天亮</footer>
+</body>
+</html>
