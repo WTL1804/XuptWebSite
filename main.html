@@ -10,31 +10,6 @@
 
 	<!-- <base href = ""> 设置基础根目录-->
 
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("div.outSideHover").hover(
-				function () {
-					$(".underHover").css( "top", "-80px");
-				},function () {
-					$(".underHover").css( "top", "0px");
-				}
-			);
-
-
-			var lb = document.getElementById("lunbo");
-			var num=1;
-			// 自动换图
-			setInterval(function(){
-   			num++;
-  			if(num == 5){
-       			num = 1;     
-    		}
-    		lb.src="res/img"+num+".jpg" 
-			},3000)
-		}
-	);
-	</script>
-
 </head>
 <body>
 
@@ -180,7 +155,7 @@
 	<!-- 通知 -->
 	<div class = "notice fr">
 		<ul>
-			<li>
+			<li> 
 				<span class= "noticeSpan">关于疫情期间做好听课不停学的通知</span>
 			</li>
 			<li>
@@ -204,10 +179,8 @@
 			</li>
 		</ul>
 	</div>
-
 </div>
-<!-- 登录教务系统 -->
-<div id = "loginAdmin"></div>
-<div id = "detail"></div>
+
+<div id = "bottomLine" class = "clearfix">西安邮电大学软件1804王天亮©️版权所有</div>
 </body>
 </html>
